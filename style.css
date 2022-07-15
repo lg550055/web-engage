@@ -13,7 +13,7 @@ body {
 .hero {
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../public/img/code3.jpg');
   background-size: cover;
-  padding: 18vh 0;
+  padding: 17vh 0 22vh 0;
 }
 
 aside {
@@ -30,7 +30,7 @@ article {
   padding: 8vh 0;
 }
 article > h1, h2 {
-  color: darkgreen;
+  color: royalblue;
 }
 article > div {
   display: flex;
@@ -42,6 +42,14 @@ article > div {
 article img {
   padding-top: 2vh;
   width: 16vh;
+}
+article > div > div {
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: 7px 9px 9px;
+  margin: 0 2vw 2vw 0;
+  width: 320px;
+  padding: 3vw;
 }
 
 .sharp {
@@ -62,7 +70,7 @@ article img {
   padding: 11vh min(1em, 2vw) 17vh;
   max-width: 900px;
   display: grid;
-  grid-template: auto auto / 1fr min-content 50%;
+  grid-template: auto auto / 1fr 50%;
   align-items: center;
   text-align: left;
 }
@@ -70,15 +78,11 @@ article img {
   grid-area: 1 / 1 / 2 / 4;
   padding-bottom: 1em;
 }
-#curr > em {
-  font-size: 15vw;
-  font-style: normal;
-  padding-right: 1vw;
-}
 #curr p {
   padding-bottom: 10px;
 }
 #curr img {
+  width: 35px;
   padding: 0 5px 10px 0;
 }
 
@@ -122,14 +126,14 @@ footer p {
 a {
   line-height: 2.5;
   text-decoration: none;
-  color: darkgreen;
+  color: royalblue;
 }
 a:hover {
   color: cadetblue;
 }
 
 button {
-  background-color:darkgreen;
+  background-color:royalblue;
   border-radius: 9px;
   border: none;
   color: azure;
@@ -139,9 +143,14 @@ button:hover {
   background-color: cadetblue;
 }
 
+input {
+  border-radius: 9px;
+  padding: 0.4em 1em;
+  max-width: 200px;
+}
+
 h1 {font-size: min(6vw , 40px); color: azure; padding-bottom: 0.5em; font-weight: bold;}
 h2 {font-size: min(5vw , 30px); padding-bottom: 0.25em;}
-h3 {font-size: min(4vw , 22px); padding-bottom: 0.25em;}
-h4 {font-size: min(4vw , 22px); color: darkgreen; padding-bottom: 0.25em;}
+h3 {font-size: min(4vw , 22px); padding-bottom: 0.25em; font-weight: bold;}
 h5 {font-size: min(4vw , 20px); padding-bottom: 0.25em; line-height: 1.5;}
 p {font-size: min(3.5vw , 20px);}
