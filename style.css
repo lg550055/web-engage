@@ -17,7 +17,7 @@ body {
 }
 
 aside {
-  background-color: azure;
+  background-color: mintcream;
   padding: 2em 1em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -26,7 +26,7 @@ aside {
 }
 
 article {
-  background-color: azure;
+  background-color: snow;
   padding: 8vh 0;
 }
 article > h1, h2 {
@@ -132,6 +132,9 @@ nav a {
   text-transform: uppercase;
 }
 
+footer {
+  padding: 1vh 0 9vh;
+}
 footer p {
   font-size: min(3vw , 18px);
 }
@@ -165,5 +168,6 @@ input {
 h1 {font-size: min(6vw , 40px); color: azure; padding-bottom: 0.5em; font-weight: bold;}
 h2 {font-size: min(5vw , 30px); padding-bottom: 0.25em;}
 h3 {font-size: min(4vw , 22px); padding-bottom: 0.25em; font-weight: bold;}
+h4 {font-size: min(4vw , 22px); padding-bottom: 0.25em;}
 h5 {font-size: min(4vw , 20px); padding-bottom: 0.25em; line-height: 1.5;}
 p {font-size: min(3.5vw , 20px);}
