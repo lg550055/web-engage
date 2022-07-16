@@ -18,7 +18,7 @@ body {
 
 aside {
   background-color: mintcream;
-  padding: 2em 1em;
+  padding: 1em 1em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 1em;
@@ -36,7 +36,7 @@ article > div {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 900px;
+  max-width: 960px;
   margin: 3vh auto 5vh;
 }
 article img {
@@ -50,6 +50,19 @@ article > div > div {
   margin: 0 2vw 2vw 0;
   width: 320px;
   padding: 3vw;
+}
+
+#coding {
+  background-color: royalblue;
+  box-shadow: 7px 9px 9px gray;
+  color: azure;
+}
+#coding a, #coding h2 {color: azure;}
+
+#cyber {
+  background-color: cyan;
+  box-shadow: 7px 9px 9px gray;
+  color: royalblue;
 }
 
 .sharp {
@@ -68,7 +81,7 @@ article > div > div {
 .sharp2 {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/pairpgmg.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   padding: 10vw 0 0 6vw;
   text-align: left;
   min-height: 60vh;
