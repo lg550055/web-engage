@@ -3,11 +3,11 @@
 * { margin: 0; padding: 0; font-weight: normal;}
 
 body {
-  background-color: black;
+  background-color: rgb(20, 20, 26);
   font-family: 'Roboto';
   text-align: center;
   line-height: 1.25;
-  color: cadetblue;
+  color: azure;
 }
 
 .hero {
@@ -17,19 +17,16 @@ body {
 }
 
 aside {
-  background-color: mintcream;
   padding: 1em 1em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 1em;
+  color: royalblue;
   text-align: left;
 }
 
 article {
-  background-color: snow;
   padding: 8vh 0;
-}
-article > h1, h2 {
   color: royalblue;
 }
 article > div {
@@ -46,7 +43,7 @@ article img {
 article > div > div {
   background-color: white;
   border-radius: 9px;
-  box-shadow: 7px 9px 9px;
+  box-shadow: 5px 5px 5px;
   margin: 0 2vw 2vw 0;
   width: 320px;
   padding: 3vw;
@@ -54,14 +51,14 @@ article > div > div {
 
 #coding {
   background-color: royalblue;
-  box-shadow: 7px 9px 9px gray;
+  box-shadow: 5px 5px 5px gray;
   color: azure;
 }
 #coding a, #coding h2 {color: azure;}
 
 #cyber {
   background-color: cyan;
-  box-shadow: 7px 9px 9px gray;
+  box-shadow: 5px 5px 5px gray;
   color: royalblue;
 }
 
@@ -92,13 +89,13 @@ article > div > div {
 }
 
 #curr {
-  margin: 0 auto;
   padding: 11vh min(1em, 2vw) 17vh;
   max-width: 900px;
   display: grid;
   grid-template: auto auto / 1fr 50%;
   align-items: center;
   text-align: left;
+  margin: 0 auto;
 }
 #curr h1 {
   grid-area: 1 / 1 / 2 / 4;
@@ -107,8 +104,8 @@ article > div > div {
 #curr p {
   padding-bottom: 10px;
 }
-#curr img {
-  width: 35px;
+#curr img, article img {
+  width: 30px;
   padding: 0 5px 10px 0;
 }
 
@@ -126,7 +123,7 @@ article > div > div {
 }
 .tile div {
   padding: 7vh min(2.5em, 5vw);
-  background-color: rgb(20, 26, 20);
+  background-color: rgb(20, 20, 26);
 }
 
 nav {
@@ -142,23 +139,25 @@ nav a {
   padding-right: 8px;
   line-height: 1;
   font-size: min(3vw , 16px);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 footer {
   padding: 1vh 0 9vh;
 }
 footer p {
+  color: royalblue;
   font-size: min(3vw , 18px);
 }
 
 a {
   line-height: 2.5;
   text-decoration: none;
-  color: royalblue;
+  /* color: royalblue; */
+  color: gold;
 }
 a:hover {
-  color: cadetblue;
+  color: royalblue;
 }
 
 button {
@@ -169,7 +168,7 @@ button {
   padding: 0.5em 1.5em;
 }
 button:hover {
-  background-color: cadetblue;
+  background-color: gold;
 }
 
 input {
@@ -178,9 +177,10 @@ input {
   max-width: 200px;
 }
 
-h1 {font-size: min(6vw , 40px); color: azure; padding-bottom: 0.5em; font-weight: bold;}
+h1 {font-size: min(6vw , 40px); padding-bottom: 0.5em; font-weight: bold;}
 h2 {font-size: min(5vw , 30px); padding-bottom: 0.25em;}
 h3 {font-size: min(4vw , 22px); padding-bottom: 0.25em; font-weight: bold;}
-h4 {font-size: min(4vw , 22px); padding-bottom: 0.25em;}
+h4 {font-size: min(4vw , 22px); padding-bottom: 0.25em; color: gold;}
 h5 {font-size: min(4vw , 20px); padding-bottom: 0.25em; line-height: 1.5;}
 p {font-size: min(3.5vw , 20px);}
+svg {height: 30px;}
