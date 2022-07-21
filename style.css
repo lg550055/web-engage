@@ -16,6 +16,12 @@ body {
   padding: 17vh 0 22vh 0;
 }
 
+.hero2 {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img/code.jpg');
+  background-size: cover;
+  padding: 17vh 0;
+}
+
 aside {
   padding: 1em 1em;
   display: grid;
