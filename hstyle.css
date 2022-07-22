@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* { margin: 0; padding: 0; font-weight: normal;}
+
+body {
+  color: rgb(40, 40, 40);
+  font-family: 'Roboto';
+  text-align: center;
+  line-height: 1.25;
+}
+
+section {
+  background-color: ghostwhite;
+  padding: 15vh 0 20vh;
+}
+
+aside {
+  padding: 1vw 1vw;
+  column-gap: 1vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
+}
+aside > div {
+  border-radius: 9px;
+  background-color: rgb(40, 40, 40);
+  color: ghostwhite;
+  padding: 2vw 2vw;
+}
+
+article {
+  background-color: ghostwhite;
+  padding: 8vh 0;
+}
+article > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 960px;
+  margin: 3vh auto 5vh;
+}
+article img {
+  padding-top: 2vh;
+  width: 16vh;
+}
+article > div > div {
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: 5px 5px 5px;
+  margin: 0 2vw 2vw 0;
+  width: 320px;
+  padding: 3vw;
+}
+
+#coding {
+  background-color: royalblue;
+  box-shadow: 5px 5px 5px gray;
+  color: azure;
+}
+#coding a, #coding h2 {color: azure;}
+
+#cyber {
+  background-color: cyan;
+  box-shadow: 5px 5px 5px gray;
+  color: royalblue;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/code3.jpg');
+  background-size: cover;
+  padding: 17vh 0 22vh 0;
+}
+.hero2 {
+  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img/code.jpg');
+  background-size: cover;
+  padding: 17vh 0;
+}
+.sharp {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/group.jpg');  
+  background-size: cover;
+  background-position: bottom;  
+  padding: 10vw 0 0 6vw;
+  text-align: left;
+  min-height: 60vh;
+}
+.sharp > div {
+  max-width: min(600px, 60vw);
+  color: azure;
+}
+.sharp2 {
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/pairpgmg.jpg');
+  background-size: cover;
+  background-position: top;
+  padding: 10vw 0 0 6vw;
+  text-align: left;
+  min-height: 60vh;
+}
+.sharp2 > div {
+  max-width: min(600px, 60vw);
+  color: azure;
+}
+
+#curr {
+  padding: 11vh min(1em, 2vw) 17vh;
+  max-width: 900px;
+  display: grid;
+  grid-template: auto auto / 1fr 50%;
+  align-items: center;
+  text-align: left;
+  margin: 0 auto;
+}
+#curr h1 {
+  grid-area: 1 / 1 / 2 / 4;
+  padding-bottom: 9vh;
+}
+#curr p {
+  padding-bottom: 10px;
+}
+#curr img, article img {
+  width: 30px;
+  padding: 0 5px 10px 0;
+}
+
+.tile {
+  margin: 0 auto;
+  max-width: 900px;
+  display: grid;
+  grid-template: auto auto / 60% minmax(max-content, 1fr);
+  gap: min(1em, 2vw);
+  text-align: left;
+  padding: 12vh min(1em, 2vw) 19vh;
+}
+.tile > h1 {
+  grid-area: 1 / 1 / 2 / 3;
+}
+.tile div {
+  padding: 7vh min(2.5em, 5vw);
+  background-color: rgb(20, 20, 26);
+}
+
+nav {
+  background-color: rgb(40, 40, 40);
+  text-align: right;
+  padding: 10px;
+}
+nav > img {
+  height: 35px;
+  padding-top: 5px;
+  float: left;
+}
+nav a {
+  padding-right: 8px;
+  line-height: 1;
+  color: azure;
+  /* text-transform: uppercase; */
+}
+
+footer {
+  padding: 1vh 0 9vh;
+  background-color: rgb(40, 40, 40);
+}
+footer p {
+  color: royalblue;
+}
+
+a {
+  line-height: 2.5;
+  text-decoration: none;
+  color: royalblue;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color:royalblue;
+  border-radius: 9px;
+  border: none;
+  color: ghostwhite;
+  padding: 0.5em 1.5em;
+}
+button:hover {
+  background-color: gold;
+}
+
+input {
+  border-radius: 9px;
+  border: 1px solid royalblue;
+  padding: 0.4em 1em;
+  max-width: 200px;
+}
+
+h1 {font-size: min(6vw , 40px); padding-bottom: 0.5em; font-weight: bold;}
+h2 {font-size: min(5vw , 30px); padding-bottom: 0.25em;}
+h3 {font-size: min(4vw , 22px); padding-bottom: 0.25em; font-weight: bold;}
+h4 {font-size: min(4vw , 22px); padding-bottom: 0.25em; line-height: 1.5;}
+h5 {font-size: min(4vw , 20px); padding-bottom: 0.25em; line-height: 1.5;}
+p, a {font-size: min(3vw , 18px);}
+svg, img {height: 30px;}
