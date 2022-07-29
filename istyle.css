@@ -11,9 +11,9 @@ body {
 }
 
 aside {
-  padding: 1vw 1vw;
+  padding: 1.5vh 1.5vh;
   display: grid;
-  gap: 1vw;
+  gap: 1.5vh;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 aside > div {
@@ -21,7 +21,7 @@ aside > div {
   border-radius: 9px;
   color: ghostwhite;
   text-align: left;
-  padding: 2vw 2vw;
+  padding: 3vh 3vh;
 }
 main > div {
   background-color: royalblue;
