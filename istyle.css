@@ -36,7 +36,7 @@ main > div > a {
 }
 
 article {
-  padding: 8vh 0;
+  padding: 8vh 1.5vh;
 }
 article > div {
   display: flex;
