@@ -25,7 +25,7 @@ aside > div {
 }
 main > div {
   background-color: royalblue;
-  padding: 4vh 0;
+  padding: 5vh 0;
   color: ghostwhite;
 }
 main > div > aside > div {
@@ -151,10 +151,10 @@ input {
   max-width: 200px;
 }
 
-h1 {font-size: min(6vw , 40px); padding-bottom: 0.5em; font-weight: bold;}
-h2 {font-size: min(5vw , 30px); padding-bottom: 0.25em;}
-h3 {font-size: min(4vw , 22px); padding-bottom: 0.25em; font-weight: bold;}
-h4 {font-size: min(4vw , 22px); padding-bottom: 0.25em; line-height: 1.5;}
-h5 {font-size: min(4vw , 20px); padding-bottom: 0.25em; line-height: 1.5;}
-p, a {font-size: min(3vw , 18px);}
+h1 {font-size: min(6vh , 40px); padding-bottom: 0.5em; font-weight: bold;}
+h2 {font-size: min(5vh , 30px); padding-bottom: 0.25em;}
+h3 {font-size: min(4vh , 22px); padding-bottom: 0.25em; font-weight: bold;}
+h4 {font-size: min(4vh , 22px); padding-bottom: 0.25em; line-height: 1.5;}
+h5 {font-size: min(4vh , 20px); padding-bottom: 0.25em; line-height: 1.5;}
+p, a {font-size: min(3vh , 18px);}
 svg, img {height: 30px;}
