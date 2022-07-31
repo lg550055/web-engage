@@ -56,45 +56,28 @@ article > div > div {
   padding: 3vh;
 }
 .apply {
-  background-color: white;
-  border-radius: 9px;
-  box-shadow: 5px 5px 5px gray;
   margin: 2vh auto;
   max-width: 700px;
-  padding: 3vh;
 }
 
 #coding {
   background-color: royalblue;
-  box-shadow: 5px 5px 5px gray;
   color: azure;
 }
-#coding a, #coding h2 {color: azure;}
+#coding a {color: azure;}
 
 #testin {
-  background-color: white;
-  box-shadow: 5px 5px 5px gray;
   color: royalblue;
-}
-
-#curr {
-  padding: 9vh 0;
 }
 #wdev {
   box-shadow: 5px 5px 5px royalblue;
   background-color: white;
-  border-radius: 9px;
   max-width: 400px;
-  margin: 3vh auto;
-  padding: 4vh 2vh;
 }
 #swe {
-  box-shadow: 5px 5px 5px gray;
   background-color: rgb(40, 40, 40);
-  border-radius: 9px;
   max-width: 400px;
-  margin: 3vh auto;
-  padding: 4vh 2vh;
+  padding: auto 3vh;
   color: azure;
 }
 
@@ -179,5 +162,6 @@ h2 {font-size: min(6vw, 30px); padding-bottom: 0.25em;}
 h3 {font-size: min(5vw, 22px); padding-bottom: 0.25em; font-weight: bold;}
 h4 {font-size: min(5vw, 22px); padding-bottom: 0.25em; line-height: 1.5;}
 h5 {font-size: min(5vw, 20px); padding-bottom: 0.25em; line-height: 1.5;}
-p, a {font-size: min(4vw, 18px);}
+p {font-size: min(4vw, 18px); font-weight: 300;}
+a {font-size: min(4vw, 18px);}
 svg, img {height: 30px;}
