@@ -78,13 +78,22 @@ article > div > div {
 #curr {
   padding: 9vh 0;
 }
-#curr > div {
+#wdev {
   box-shadow: 5px 5px 5px royalblue;
   background-color: white;
   border-radius: 9px;
   max-width: 400px;
-  margin: 0 auto;
-  padding: 4vh 0;
+  margin: 3vh auto;
+  padding: 4vh 2vh;
+}
+#swe {
+  box-shadow: 5px 5px 5px gray;
+  background-color: rgb(40, 40, 40);
+  border-radius: 9px;
+  max-width: 400px;
+  margin: 3vh auto;
+  padding: 4vh 2vh;
+  color: azure;
 }
 
 .hero {
