@@ -124,7 +124,7 @@ nav {
   padding: 7px;
 }
 nav > img {
-  padding-top: 5px;
+  /* padding-top: 5px; */
   float: left;
 }
 nav a {
