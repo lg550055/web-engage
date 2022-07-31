@@ -55,6 +55,7 @@ article > div > div {
   width: 320px;
   padding: 3vh;
 }
+article > div > div > p {margin-bottom: 1vh;}
 .apply {
   background-color: white;
   border-radius: 9px;
@@ -111,7 +112,7 @@ article > div > div {
 }
 .shdiv {
   max-width: min(600px, 70vw);
-  padding: 10vh 0 0 6vh;
+  padding: 10vh 0 0 6vw;
   min-height: 70vh;
   text-align: left;
   color: azure;
