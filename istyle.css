@@ -69,7 +69,7 @@ article > div > div {
   align-self: center;
   text-align: left;
 }
-.apply > div > h3, .apply > div > h4 {display: inline;}
+.apply > div > h3 {display: inline;}
 .apply svg {color: royalblue;}
 
 #coding {
