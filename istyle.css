@@ -99,9 +99,9 @@ article > div > div {
   background-position: top;
 }
 .shdiv {
-  max-width: min(600px, 60vw);
-  padding: 10vw 0 0 6vw;
-  min-height: 60vh;
+  max-width: min(600px, 70vw);
+  padding: 10vh 0 0 6vh;
+  min-height: 70vh;
   text-align: left;
   color: azure;
 }
@@ -123,11 +123,9 @@ nav a {
 }
 
 footer {
-  padding: 1vh 0 9vh;
   background-color: rgb(40, 40, 40);
-}
-footer p {
-  color: royalblue;
+  padding: 1vh 0 9vh;
+  color: ghostwhite;
 }
 
 a {
