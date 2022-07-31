@@ -23,9 +23,11 @@ aside > div {
   text-align: left;
   padding: 3vh 3vh;
 }
+aside > div > h1 {margin-top: 1vh;}
+
 main > div {
   background-color: royalblue;
-  padding: 5vh 0;
+  padding: 7vh 0;
   color: ghostwhite;
 }
 main > div > aside > div {
