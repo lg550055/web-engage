@@ -77,7 +77,9 @@ article > div > div > p {margin-bottom: 1vh;}
   background-color: royalblue;
   color: azure;
 }
-#coding a {color: azure;}
+#coding a {
+  color: azure;
+}
 
 #testin {
   color: royalblue;
@@ -98,17 +100,19 @@ article > div > div > p {margin-bottom: 1vh;}
   background-size: cover;
   padding: 0 0 22vh 0;
   color: ghostwhite;
+  background-attachment: fixed; 
 }
 .sharp {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/group.jpg');  
   background-size: cover;
-  background-position: bottom;  
-  
+  background-position: bottom;
+  background-attachment: fixed;  
 }
 .sharp2 {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/pairpgmg.jpg');
   background-size: cover;
   background-position: top;
+  background-attachment: fixed; 
 }
 .shdiv {
   max-width: min(600px, 70vw);
@@ -120,8 +124,9 @@ article > div > div > p {margin-bottom: 1vh;}
 
 nav {
   text-align: right;
-  margin-bottom: 15vh;
+  margin-bottom: 1vh;
   padding: 7px;
+  /* position: fixed; */
 }
 nav > img {
   /* padding-top: 5px; */
@@ -130,7 +135,7 @@ nav > img {
 nav a {
   padding-right: 7px;
   line-height: 1;
-  color: ghostwhite;
+  /* color: ghostwhite; */
   /* text-transform: uppercase; */
 }
 
