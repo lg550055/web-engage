@@ -99,6 +99,8 @@ article > div > div > p {margin-bottom: 1vh;}
   padding: 0 0 22vh 0;
   color: ghostwhite;
 }
+.hero > img {height: auto; width: 320px;}
+
 .sharp {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/group.jpg');  
   background-size: cover;
