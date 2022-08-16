@@ -96,10 +96,10 @@ article > div > div > p {margin-bottom: 1vh;}
 .hero {
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/code3.jpg');
   background-size: cover;
-  padding: 0 0 22vh 0;
   color: ghostwhite;
 }
-.hero > img {height: auto; width: 320px;}
+.hero > div {padding: 15vh 0 22vh;}
+.hero > div > img {height: auto; width: 320px;}
 
 .sharp {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/group.jpg');  
@@ -122,7 +122,6 @@ article > div > div > p {margin-bottom: 1vh;}
 
 nav {
   text-align: right;
-  margin-bottom: 15vh;
   padding: 7px;
 }
 nav > img {
