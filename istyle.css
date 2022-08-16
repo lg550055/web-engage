@@ -75,13 +75,16 @@ article > div > div > p {margin-bottom: 1vh;}
 
 #coding {
   background-color: royalblue;
-  color: azure;
+  color: white;
 }
-#coding a {color: azure;}
+#coding h2 {color: royalblue; background-color: white; padding: 0.25em; border-radius: 9px; margin: 0 20px 20px 20px;}
+#coding a {color: white;}
 
 #testin {
   color: royalblue;
 }
+#testin h2 {color: white; background-color: royalblue; padding: 0.25em; border-radius: 9px; margin: 0 20px 20px 20px;}
+
 #wdev {
   box-shadow: 5px 5px 5px royalblue;
   background-color: white;
