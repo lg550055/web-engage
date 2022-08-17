@@ -1,4 +1,4 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
 * { margin: 0; padding: 0; font-weight: normal;}
 
@@ -109,7 +109,6 @@ article > div > div > p {margin-bottom: 1vh; font-weight: 400;}
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/group.jpg');  
   background-size: cover;
   background-position: bottom;  
-  
 }
 .sharp2 {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/pairpgmg.jpg');
@@ -124,9 +123,29 @@ article > div > div > p {margin-bottom: 1vh; font-weight: 400;}
   color: ghostwhite;
 }
 
+#courses {
+  padding: 9vh 2vw 0;
+}
+#courses h1 {color: royalblue;}
+#courses > div {max-width: 840px; margin: 3vh auto;}
+#courses > div > div {
+  box-shadow: 5px 5px 5px gray;
+  background-color: white;
+  border-radius: 9px;
+  margin: 2vh 0;
+  padding: 2vh;
+}
+#courses > div > div > h5 {text-align: left; margin: 2vh 0;}
+
+details {margin: 2vh 0;}
+details summary {cursor: pointer; color:royalblue;}
+details div {text-align: left; padding: 0vh 0vw 2vh;}
+details div ul {margin: 0 3vw;}
+details div h3 {margin-top: 2vh;}
+
 nav {
   text-align: right;
-  padding: 7px;
+  padding: 9px;
 }
 nav > div {
   float: left;
@@ -149,7 +168,8 @@ a {
   color: royalblue;
 }
 a:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: gold;
 }
 
 button {
