@@ -170,7 +170,7 @@ input {
   padding: 0.4em 1em;
   max-width: 200px;
 }
-#coursemap {width: min(480px, 90vw); height: auto;}
+#coursemap {width: min(400px, 90vw); height: auto;}
 
 h1 {font-size: min(8vw, 40px); padding-bottom: 0.5em; font-weight: bold;}
 h2 {font-size: min(6vw, 30px); padding-bottom: 0.25em;}
