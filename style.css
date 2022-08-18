@@ -109,9 +109,7 @@ article > div > p {margin-bottom: 1vh; font-weight: 400;}
   color: ghostwhite;
 }
 
-#courses {
-  padding: 9vh 2vw 0;
-}
+#courses {padding: 9vh 2vw 0;}
 #courses h1 {color: royalblue;}
 #courses > div {max-width: 840px; margin: 5vh auto 8vh;}
 #courses > div > div {
@@ -153,9 +151,7 @@ a {
   text-decoration: none;
   color: royalblue;
 }
-a:hover {
-  color: gold;
-}
+a:hover {color: gold;}
 
 button {
   background-color:royalblue;
