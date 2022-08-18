@@ -10,6 +10,7 @@ body {
   line-height: 1.25;
 }
 /* section = parent to aside, article, or div */
+section {padding: 9vh 0;}
 /* aside = grid parent container */
 aside {
   padding: 1vh 1vh;
@@ -25,8 +26,7 @@ article {
   max-width: 960px;
   margin: 3vh auto 5vh;
 }
-
-
+/* standard grid child */
 aside > div {
   background-color: rgb(40, 40, 40);
   border-radius: 9px;
@@ -35,30 +35,8 @@ aside > div {
   padding: 3vh 3vh;
 }
 aside > div > h1 {margin-top: 1vh;}
-
-main > div {
-  background-color: royalblue;
-  padding: 9vh 0;
-  color: ghostwhite;
-}
-main > div > aside > div {
-  text-align: center;
-}
-main > div > a {
-  color: ghostwhite;
-}
-
-article {
-  padding: 8vh 1vh;
-}
+/* standard flex child */
 article > div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 960px;
-  margin: 3vh auto 5vh;
-}
-article > div > div {
   background-color: white;
   border-radius: 9px;
   box-shadow: 5px 5px 5px gray;
@@ -66,7 +44,11 @@ article > div > div {
   width: 320px;
   padding: 3vh;
 }
-article > div > div > p {margin-bottom: 1vh; font-weight: 400;}
+article > div > p {margin-bottom: 1vh; font-weight: 400;}
+
+.bluesection {background-color: royalblue; color: ghostwhite;}
+.bluesection > a {color: ghostwhite;}
+.bluesection > aside > div {text-align: center;}
 
 .apply {
   background-color: white;
@@ -92,28 +74,21 @@ article > div > div > p {margin-bottom: 1vh; font-weight: 400;}
 #coding h2 {color: royalblue; background-color: white; padding: 0.25em; border-radius: 9px; margin: 0 20px 20px 20px;}
 #coding a {color: white;}
 
-#testin {
-  color: royalblue;
-}
+#testin {color: royalblue;}
 #testin h2 {color: white; background-color: royalblue; padding: 0.25em; border-radius: 9px; margin: 0 20px 20px 20px;}
 
-#wdev {
-  box-shadow: 5px 5px 5px royalblue;
-  background-color: white;
-  max-width: 400px;
-}
 #swe {
   background-color: rgb(40, 40, 40);
-  max-width: 400px;
-  color: white;
+  color: ghostwhite;
 }
 
 .hero {
   background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/code3.jpg');
   background-size: cover;
   color: ghostwhite;
+  padding: 0;
 }
-.hero > div {padding: 15vh 0 22vh;}
+.hero > div {padding: 15vh 0 19vh;}
 .hero > div > img {height: auto; width: min(320px, 70vw);}
 
 .sharp {
@@ -128,8 +103,8 @@ article > div > div > p {margin-bottom: 1vh; font-weight: 400;}
 }
 .shdiv {
   max-width: min(600px, 70vw);
-  padding: 10vh 0 0 6vw;
-  min-height: 70vh;
+  padding: 1vh 0 0 6vw;
+  min-height: 60vh;
   text-align: left;
   color: ghostwhite;
 }
@@ -201,7 +176,13 @@ input {
   padding: 0.4em 1em;
   max-width: 200px;
 }
-#coursemap {width: min(400px, 90vw); height: auto;}
+#coursemap {
+  width: min(400px, 90vw);
+  height: auto;
+  padding: 3vh;
+  border-radius: 9px;
+  background-color: rgb(40, 40, 40);
+}
 
 h1 {font-size: min(8vw, 40px); padding-bottom: 0.5em; font-weight: bold;}
 h2 {font-size: min(6vw, 30px); padding-bottom: 0.25em;}
