@@ -110,16 +110,16 @@ article > div > p {margin-bottom: 1vh; font-weight: 400;}
 }
 
 #courses {padding: 9vh 2vw 0;}
-#courses h1 {color: royalblue;}
-#courses > div {max-width: 840px; margin: 5vh auto 8vh;}
-#courses > div > div {
+#courses > h1 {color: royalblue; margin-bottom: 5vh;}
+#courses > div {
   box-shadow: 5px 5px 5px gray;
   background-color: white;
   border-radius: 9px;
-  margin: 3vh 0;
+  max-width: 840px;
+  margin: 3vh auto;
   padding: 2vh;
 }
-#courses > div > div > h5 {text-align: left; margin: 2vh 0;}
+#courses > div > h5 {text-align: left; margin: 2vh 0;}
 
 details {margin: 2vh 0;}
 details summary {cursor: pointer; color:royalblue;}
