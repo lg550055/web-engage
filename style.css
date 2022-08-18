@@ -3,37 +3,53 @@
 * { margin: 0; padding: 0; font-weight: normal;}
 
 body {
-  background-color: rgb(20, 20, 26);
+  background-color: ghostwhite;
+  color: rgb(40, 40, 40);
   font-family: 'Roboto';
   text-align: center;
   line-height: 1.25;
-  color: azure;
 }
-
-.hero {
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/code3.jpg');
-  background-size: cover;
-  padding: 17vh 0 22vh 0;
-}
-
-.hero2 {
-  background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('img/code.jpg');
-  background-size: cover;
-  padding: 17vh 0;
-}
-
+/* section = parent to aside, article, or div */
+/* aside = grid parent container */
 aside {
-  padding: 1em 1em;
+  padding: 1vh 1vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 1em;
-  color: royalblue;
+  gap: 1vh;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+/* article = flex parent container */
+article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 960px;
+  margin: 3vh auto 5vh;
+}
+
+
+aside > div {
+  background-color: rgb(40, 40, 40);
+  border-radius: 9px;
+  color: ghostwhite;
   text-align: left;
+  padding: 3vh 3vh;
+}
+aside > div > h1 {margin-top: 1vh;}
+
+main > div {
+  background-color: royalblue;
+  padding: 9vh 0;
+  color: ghostwhite;
+}
+main > div > aside > div {
+  text-align: center;
+}
+main > div > a {
+  color: ghostwhite;
 }
 
 article {
-  padding: 8vh 0;
-  color: royalblue;
+  padding: 8vh 1vh;
 }
 article > div {
   display: flex;
@@ -42,151 +58,157 @@ article > div {
   max-width: 960px;
   margin: 3vh auto 5vh;
 }
-article img {
-  padding-top: 2vh;
-  width: 16vh;
-}
 article > div > div {
   background-color: white;
   border-radius: 9px;
-  box-shadow: 5px 5px 5px;
-  margin: 0 2vw 2vw 0;
+  box-shadow: 5px 5px 5px gray;
+  margin: 1vh;
   width: 320px;
-  padding: 3vw;
+  padding: 3vh;
 }
+article > div > div > p {margin-bottom: 1vh; font-weight: 400;}
+
+.apply {
+  background-color: white;
+  border-radius: 9px;
+  box-shadow: 5px 5px 5px gray;
+  margin: 2vh auto;
+  max-width: 700px;
+  padding: 2vh;
+  display: grid;
+  grid-template-columns: 5fr 2fr 1fr;
+}
+.apply > div {
+  align-self: center;
+  text-align: left;
+}
+.apply > div > h3 {display: inline;}
+.apply svg {color: royalblue;}
 
 #coding {
   background-color: royalblue;
-  box-shadow: 5px 5px 5px gray;
-  color: azure;
+  color: white;
 }
-#coding a, #coding h2 {color: azure;}
+#coding h2 {color: royalblue; background-color: white; padding: 0.25em; border-radius: 9px; margin: 0 20px 20px 20px;}
+#coding a {color: white;}
 
-#cyber {
-  background-color: cyan;
-  box-shadow: 5px 5px 5px gray;
+#testin {
   color: royalblue;
 }
+#testin h2 {color: white; background-color: royalblue; padding: 0.25em; border-radius: 9px; margin: 0 20px 20px 20px;}
+
+#wdev {
+  box-shadow: 5px 5px 5px royalblue;
+  background-color: white;
+  max-width: 400px;
+}
+#swe {
+  background-color: rgb(40, 40, 40);
+  max-width: 400px;
+  color: white;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('img/code3.jpg');
+  background-size: cover;
+  color: ghostwhite;
+}
+.hero > div {padding: 15vh 0 22vh;}
+.hero > div > img {height: auto; width: min(320px, 70vw);}
 
 .sharp {
-  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/group.jpg');
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/group.jpg');  
   background-size: cover;
-  background-position: bottom;
-  padding: 10vw 0 0 6vw;
-  text-align: left;
-  min-height: 60vh;
+  background-position: bottom;  
 }
-.sharp > div {
-  max-width: min(600px, 60vw);
-  color: azure;
-}
-
 .sharp2 {
   background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('img/pairpgmg.jpg');
   background-size: cover;
   background-position: top;
-  padding: 10vw 0 0 6vw;
-  text-align: left;
-  min-height: 60vh;
 }
-.sharp2 > div {
-  max-width: min(600px, 60vw);
-  color: azure;
+.shdiv {
+  max-width: min(600px, 70vw);
+  padding: 10vh 0 0 6vw;
+  min-height: 70vh;
+  text-align: left;
+  color: ghostwhite;
 }
 
-#curr {
-  padding: 11vh min(1em, 2vw) 17vh;
-  max-width: 900px;
-  display: grid;
-  grid-template: auto auto / 1fr 50%;
-  align-items: center;
-  text-align: left;
-  margin: 0 auto;
+#courses {
+  padding: 9vh 2vw 0;
 }
-#curr h1 {
-  grid-area: 1 / 1 / 2 / 4;
-  padding-bottom: 9vh;
+#courses h1 {color: royalblue;}
+#courses > div {max-width: 840px; margin: 5vh auto 8vh;}
+#courses > div > div {
+  box-shadow: 5px 5px 5px gray;
+  background-color: white;
+  border-radius: 9px;
+  margin: 3vh 0;
+  padding: 2vh;
 }
-#curr p {
-  padding-bottom: 10px;
-}
-#curr img, article img {
-  width: 30px;
-  padding: 0 5px 10px 0;
-}
+#courses > div > div > h5 {text-align: left; margin: 2vh 0;}
 
-.tile {
-  margin: 0 auto;
-  max-width: 900px;
-  display: grid;
-  grid-template: auto auto / 60% minmax(max-content, 1fr);
-  gap: min(1em, 2vw);
-  text-align: left;
-  padding: 12vh min(1em, 2vw) 19vh;
-}
-.tile > h1 {
-  grid-area: 1 / 1 / 2 / 3;
-}
-.tile div {
-  padding: 7vh min(2.5em, 5vw);
-  background-color: rgb(20, 20, 26);
-}
+details {margin: 2vh 0;}
+details summary {cursor: pointer; color:royalblue;}
+details div {text-align: left; padding: 0vh 0vw 2vh;}
+details div ul {margin: 0 3vw;}
+details div h3 {margin-top: 2vh;}
 
 nav {
   text-align: right;
-  padding: 10px;
+  padding: 9px;
 }
-nav > img {
-  height: 35px;
-  padding-top: 5px;
+nav > div {
   float: left;
 }
 nav a {
-  padding-right: 8px;
+  padding-right: 7px;
   line-height: 1;
-  font-size: min(3vw , 16px);
-  /* text-transform: uppercase; */
+  color: ghostwhite;
 }
 
 footer {
+  background-color: rgb(40, 40, 40);
   padding: 1vh 0 9vh;
-}
-footer p {
-  color: royalblue;
-  font-size: min(3vw , 18px);
+  color: ghostwhite;
 }
 
 a {
   line-height: 2.5;
   text-decoration: none;
-  /* color: royalblue; */
-  color: gold;
+  color: royalblue;
 }
 a:hover {
-  color: royalblue;
+  color: gold;
 }
 
 button {
   background-color:royalblue;
   border-radius: 9px;
   border: none;
-  color: azure;
+  color: ghostwhite;
   padding: 0.5em 1.5em;
 }
 button:hover {
-  background-color: gold;
+  background-color: green;
 }
+
+table {max-width: 400px; margin: 0 auto;}
 
 input {
   border-radius: 9px;
+  border: 1px solid royalblue;
   padding: 0.4em 1em;
   max-width: 200px;
 }
+#coursemap {width: min(400px, 90vw); height: auto;}
 
-h1 {font-size: min(6vw , 40px); padding-bottom: 0.5em; font-weight: bold;}
-h2 {font-size: min(5vw , 30px); padding-bottom: 0.25em;}
-h3 {font-size: min(4vw , 22px); padding-bottom: 0.25em; font-weight: bold;}
-h4 {font-size: min(4vw , 22px); padding-bottom: 0.25em; color: gold;}
-h5 {font-size: min(4vw , 20px); padding-bottom: 0.25em; line-height: 1.5;}
-p {font-size: min(3.5vw , 20px);}
-svg {height: 30px;}
+h1 {font-size: min(8vw, 40px); padding-bottom: 0.5em; font-weight: bold;}
+h2 {font-size: min(6vw, 30px); padding-bottom: 0.25em;}
+h3 {font-size: min(5vw, 22px); padding-bottom: 0.25em; font-weight: bold;}
+h4 {font-size: min(5vw, 22px); padding-bottom: 0.25em; line-height: 1.5;}
+h5 {font-size: min(5vw, 20px); padding-bottom: 0.25em; line-height: 1.5;}
+h6 {font-size: min(5vw, 20px); text-decoration:line-through; line-height: 1.5;}
+p {font-size: min(4vw, 18px); font-weight: 300;}
+a {font-size: min(4vw, 18px);}
+svg, img {height: 30px;}
