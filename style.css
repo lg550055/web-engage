@@ -129,13 +129,13 @@ details div h3 {margin-top: 2vh;}
 
 nav {
   text-align: right;
-  padding: 9px;
+  padding: 1vh 1vh 1vh 0;
 }
 nav > div {
   float: left;
 }
 nav a {
-  padding-right: 7px;
+  padding-right: 1vw;
   line-height: 1;
   color: ghostwhite;
 }
