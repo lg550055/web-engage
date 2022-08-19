@@ -71,13 +71,12 @@ article > div > p {margin-bottom: 1vh; font-weight: 400;}
   background-color: royalblue;
   color: white;
 }
-#coding h2 {color: royalblue; background-color: white; padding: 0.25em; border-radius: 9px; margin: 0 20px 20px 20px;}
-#coding a {color: white;}
+#coding h2 {color: royalblue; background-color: ghostwhite; padding: 0.2em; border-radius: 9px; margin: 0 40px 20px;}
+#coding a {color: ghostwhite;}
 
-#testin {color: royalblue;}
-#testin h2 {color: white; background-color: royalblue; padding: 0.25em; border-radius: 9px; margin: 0 20px 20px 20px;}
+#testin h2 {color: rgb(40, 40, 40); background-color: ghostwhite; padding: 0.2em; border-radius: 9px; margin: 0 40px 20px;}
 
-#swe {
+.swe {
   background-color: rgb(40, 40, 40);
   color: ghostwhite;
 }
