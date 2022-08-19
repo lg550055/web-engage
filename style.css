@@ -130,7 +130,7 @@ details div h3 {margin-top: 2vh;}
   width: min(400px, 90vw);
   height: auto;
   padding: 3vh;
-  margin: 1vh;
+  margin: 0 auto;
   border-radius: 9px;
   background-color: rgb(40, 40, 40);
 }
