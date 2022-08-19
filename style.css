@@ -37,9 +37,9 @@ aside > div {
 aside > div > h1 {margin-top: 1vh;}
 /* standard flex child */
 article > div {
+  box-shadow: 5px 5px 5px gray;
   background-color: white;
   border-radius: 9px;
-  box-shadow: 5px 5px 5px gray;
   margin: 1vh;
   width: 320px;
   padding: 3vh;
@@ -176,6 +176,7 @@ input {
   width: min(400px, 90vw);
   height: auto;
   padding: 3vh;
+  margin: 1vh;
   border-radius: 9px;
   background-color: rgb(40, 40, 40);
 }
