@@ -109,8 +109,8 @@ article > div > p {margin-bottom: 1vh; font-weight: 400;}
   color: ghostwhite;
 }
 
-.widediv {padding: 9vh 2vw 0;}
 #courses > h1 {color: royalblue; margin-bottom: 5vh;}
+.widediv {padding: 9vh 2vw 0;}
 .widediv > div {
   box-shadow: 5px 5px 5px gray;
   background-color: white;
@@ -124,8 +124,16 @@ article > div > p {margin-bottom: 1vh; font-weight: 400;}
 details {margin: 2vh 0;}
 details summary {cursor: pointer; color:royalblue;}
 details div {text-align: left; padding: 0vh 0vw 2vh;}
-details div ul {margin: 0 3vw;}
 details div h3 {margin-top: 2vh;}
+
+#coursemap {
+  width: min(400px, 90vw);
+  height: auto;
+  padding: 3vh;
+  margin: 1vh;
+  border-radius: 9px;
+  background-color: rgb(40, 40, 40);
+}
 
 nav {
   text-align: right;
@@ -172,14 +180,8 @@ input {
   padding: 0.4em 1em;
   max-width: 200px;
 }
-#coursemap {
-  width: min(400px, 90vw);
-  height: auto;
-  padding: 3vh;
-  margin: 1vh;
-  border-radius: 9px;
-  background-color: rgb(40, 40, 40);
-}
+
+ul {margin: 0 5vw;}
 
 h1 {font-size: min(8vw, 40px); padding-bottom: 0.5em; font-weight: bold;}
 h2 {font-size: min(6vw, 30px); padding-bottom: 0.25em;}
