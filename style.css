@@ -127,10 +127,10 @@ details div {text-align: left; padding: 0vh 0vw 2vh;}
 details div h3 {margin-top: 2vh;}
 
 #coursemap {
-  width: min(400px, 90vw);
+  width: min(500px, 80vw);
   height: auto;
   padding: 3vh;
-  margin: 0 auto;
+  margin: 3vh auto;
   border-radius: 9px;
   background-color: rgb(40, 40, 40);
 }
