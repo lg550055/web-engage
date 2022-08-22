@@ -108,7 +108,7 @@ article > div > p {margin-bottom: 1vh; font-weight: 400;}
   color: ghostwhite;
 }
 
-#courses > h1 {color: royalblue; margin-bottom: 5vh;}
+#courses > h1 {margin-bottom: 5vh;}
 .widediv {padding: 9vh 2vw 0;}
 .widediv > div {
   box-shadow: 5px 5px 5px gray;
