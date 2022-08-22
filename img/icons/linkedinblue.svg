@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id="master-artboard" viewBox="0 0 1000 800" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1400 980;" width="1000px" height="800px"><defs><linearGradient id="gradient-0" gradientUnits="userSpaceOnUse" x1="12" y1="2.9998748302459717" x2="12" y2="21.000126600265503">
+                <stop offset="0" style="stop-color: #383bd6"/>
+                <stop offset="1" style="stop-color: #1d1f8b"/>
+              </linearGradient></defs><rect id="ee-background" x="0" y="0" width="1000" height="800" style="fill: white; fill-opacity: 0; pointer-events: none;"/>
+
+
+<g transform="matrix(33.333333333333336, 0, 0, 33.333333333333336, 100.00004313492991, -9.559018963045673e-7)"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" style="fill: rgb(65, 105, 225);"/></g></svg>
