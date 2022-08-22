@@ -111,7 +111,7 @@ article > div > p {margin-bottom: 1vh; font-weight: 400;}
 .widediv {
   padding: 7vh 2vw;
   max-width: 840px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 .widediv > div {
   box-shadow: 5px 5px 5px gray;
@@ -130,7 +130,7 @@ table {
   padding: 2vw;
   margin: 0 auto;}
 th {font-weight: bold;}
-tbody td {padding: 1vw;}
+tbody td {padding: 1vh 1vw;}
 #cfrow {color: gold;}
 
 #courses > h1 {margin-bottom: 5vh;}
