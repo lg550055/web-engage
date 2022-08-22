@@ -108,18 +108,29 @@ article > div > p {margin-bottom: 1vh; font-weight: 400;}
   color: ghostwhite;
 }
 
-#courses > h1 {margin-bottom: 5vh;}
-.widediv {padding: 9vh 2vw 0;}
+.widediv {
+  padding: 7vh 2vw;
+  max-width: 840px;
+  /* margin: 0 auto; */
+}
 .widediv > div {
   box-shadow: 5px 5px 5px gray;
   background-color: white;
   border-radius: 9px;
-  max-width: 840px;
   margin: 3vh auto;
-  padding: 2vh;
+  padding: 3vw;
 }
 .widediv > div > h5 {text-align: left; margin: 2vh 0;}
 
+table {
+  background-color: royalblue;
+  color: ghostwhite;
+  border-radius: 9px;
+  line-height: 1.25;
+  padding: 2vw;
+  margin: 0 auto;}
+
+#courses > h1 {margin-bottom: 5vh;}
 details {margin: 2vh 0;}
 details summary {cursor: pointer; color:royalblue;}
 details div {text-align: left; padding: 0vh 0vw 2vh;}
@@ -170,8 +181,6 @@ button {
 button:hover {
   background-color: green;
 }
-
-table {max-width: 400px; margin: 0 auto;}
 
 input {
   border-radius: 9px;
