@@ -136,6 +136,7 @@ tbody td {padding: 1vw;}
 #courses > h1 {margin-bottom: 5vh;}
 details {margin: 2vh 0;}
 details summary {cursor: pointer; color:royalblue;}
+details summary:hover {color: green;}
 details div {text-align: left; padding: 0vh 0vw 2vh;}
 details div h3 {margin-top: 2vh;}
 
@@ -192,7 +193,7 @@ input {
   max-width: 200px;
 }
 
-ul {margin: 0 5vw;}
+ul {margin: 0 5vw; text-align: left;}
 
 h1 {font-size: min(8vw, 40px); padding-bottom: 0.5em; font-weight: bold;}
 h2 {font-size: min(6vw, 30px); padding-bottom: 0.25em;}
