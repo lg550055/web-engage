@@ -129,6 +129,9 @@ table {
   line-height: 1.25;
   padding: 2vw;
   margin: 0 auto;}
+th {font-weight: bold;}
+tbody td {padding: 1vw;}
+#cfrow {color: gold;}
 
 #courses > h1 {margin-bottom: 5vh;}
 details {margin: 2vh 0;}
