@@ -73,6 +73,7 @@ article > div > p {margin-bottom: 1vh; font-weight: 400;}
 }
 #coding h2 {color: royalblue; background-color: ghostwhite; padding: 0.2em; border-radius: 9px; margin: 0 40px 20px;}
 #coding a {color: ghostwhite;}
+#coding a:hover {color: gold;}
 
 #testin h2 {color: rgb(40, 40, 40); background-color: ghostwhite; padding: 0.2em; border-radius: 9px; margin: 0 40px 20px;}
 
