@@ -196,13 +196,16 @@ button:hover {
   left: 0;
   top: 0;
   background-color: rgba(0, 40, 40, 0.5);
-  /* background-color: rgba(0,0,0,0.5); */
 }
 .modalcont {
-  font-size:x-large;
   text-align: right;
-  margin: 20vh auto;
+  margin: 10vh auto;
   width: min(80%, 400px);
+}
+.modalclose {
+  font-size:x-large;
+  color: ghostwhite;
+  cursor: pointer;
 }
 
 input {

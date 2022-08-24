@@ -15,24 +15,15 @@
           <a href="./courses.html">Courses</a>
           <a href="./">Calendar</a>
           <a href="./finance.html">Finance</a>
-          <button>Get started</button>
+          <button onclick="(()=>applymodal.style.display='block')()">Get started</button>
         </nav>
         <div>
           <img src="img/cflogow.png" alt="logo"/>
           <h2>Learn the advanced skills<br>that good tech jobs require</h2>
           <!-- <input placeholder="Enter your email"> -->
           <br>
-          <button onclick="(()=>modal.style.display='block')()">Get course packet</button>
+          <button onclick="(()=>packetmodal.style.display='block')()">Get course packet</button>
           <br><br>
-          <div class="modal" id="packetmodal">
-            <div class="modalcont">
-              <span class="modalclose" onclick="(()=>modal.style.display='none')()">&times;</span>
-              <script src='https://crm.zoho.com/crm/WebFormServeServlet?rid=7969c76120550ce022c1a18bf222c7ba344a815ad5c2d3bf4cfcd57230ab2ae9gidf966079af9d954046b61b1e1f0c26be29a02f55790459b53b14b8b5920ff9a6d&script=$sYG'></script>
-            </div>
-          </div>
-          <script>
-            let modal = document.getElementById("packetmodal");
-          </script>
           <a href="#nextsteps">Attend info session &gt;</a>
         </div>
       </section>
@@ -309,7 +300,7 @@
             <h5>Promo $16,500</h5>  
           </div>
           <div>
-            <button>Apply</button>
+            <button onclick="(()=>applymodal.style.display='block')()">Apply</button>
           </div>
         </div>
         <div class="apply">
@@ -326,7 +317,7 @@
             <h5>Promo $16,500</h5>  
           </div>
           <div>
-            <button>Apply</button>
+            <button onclick="(()=>applymodal.style.display='block')()">Apply</button>
           </div>
         </div>
         <div class="apply">
@@ -343,7 +334,7 @@
             <h5>Promo $9,000</h5>  
           </div>
           <div>
-            <button>Apply</button>
+            <button onclick="(()=>applymodal.style.display='block')()">Apply</button>
           </div>
         </div>            
         <br><br>
@@ -357,6 +348,7 @@
       <nav>
         <div><a href="./index.html"><img src="img/cflogo.png" alt="logo" /></a></div>
         <a href="./about.html">About</a>
+        <a href="./faq.html">FAQs</a>
         <a href="./legal.html">Legal</a>
         <a href="./courses.html">Courses</a>
       </nav>
@@ -373,5 +365,26 @@
         <p>2022 &copy; Code Fusion, LLC - all rights reserved</p>  
       </div>
     </footer>
+
+    <div class="modal" id="applymodal">
+      <div class="modalcont">
+        <span class="modalclose" onclick="(()=>applymodal.style.display='none')()">&times;</span>
+        <script src='https://crm.zoho.com/crm/WebFormServeServlet?rid=7969c76120550ce022c1a18bf222c7baf5681e49b34463b6a8f97b2778e2415dgidf966079af9d954046b61b1e1f0c26be29a02f55790459b53b14b8b5920ff9a6d&script=$sYG'></script>
+      </div>
+    </div>
+    <script>
+      let applymodal = document.getElementById("applymodal");
+    </script>
+
+<div class="modal" id="packetmodal">
+      <div class="modalcont">
+        <span class="modalclose" onclick="(()=>packetmodal.style.display='none')()">&times;</span>
+        <script src='https://crm.zoho.com/crm/WebFormServeServlet?rid=7969c76120550ce022c1a18bf222c7ba344a815ad5c2d3bf4cfcd57230ab2ae9gidf966079af9d954046b61b1e1f0c26be29a02f55790459b53b14b8b5920ff9a6d&script=$sYG'></script>
+      </div>
+    </div>
+    <script>
+      let packetmodal = document.getElementById("packetmodal");
+    </script>
+
   </body>
 </html>
